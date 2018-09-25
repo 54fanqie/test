@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         
         for i in 0..<30 {
             print(i%8)
+            print("jajajaj")
+            self.iamgeVIew.isHighlighted = true
         }
         
     }
